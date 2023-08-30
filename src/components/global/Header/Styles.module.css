@@ -1,0 +1,7 @@
+.header {
+  @apply flex justify-center bg-blue-400 py-6;
+}
+
+.title {
+  @apply text-zinc-50 text-xl
+}

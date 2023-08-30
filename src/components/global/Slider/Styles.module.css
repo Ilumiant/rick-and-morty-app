@@ -1,0 +1,19 @@
+.container {
+  @apply flex justify-center pt-10
+}
+
+.arrow {
+  @apply absolute top-[40%] text-[40px] cursor-pointer select-none
+}
+
+.arrow {
+  @apply absolute top-[40%] text-[40px] cursor-pointer select-none
+}
+
+.arrowLeft {
+  @apply left-[20px]
+}
+
+.arrowRight {
+  @apply  right-[20px]
+}

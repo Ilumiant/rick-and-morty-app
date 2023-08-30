@@ -1,0 +1,40 @@
+.container {
+  @apply fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full
+}
+
+.modal {
+  @apply relative w-full max-w-2xl max-h-full top-[50%] left-[50%];
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  @apply relative bg-white rounded-lg shadow dark:bg-gray-700
+}
+
+.header {
+  @apply flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600
+}
+
+.title {
+  @apply text-xl font-semibold text-gray-900 dark:text-white
+}
+
+.closeModalButton {
+  @apply text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white
+}
+
+.closeModalIcon {
+  @apply w-3 h-3
+}
+
+.body {
+  @apply p-6 space-y-6
+}
+
+.bodyText {
+  @apply text-base leading-relaxed text-gray-500 dark:text-gray-400
+}
+
+.footer {
+  @apply flex items-center justify-end p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600
+}
