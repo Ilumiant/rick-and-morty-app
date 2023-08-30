@@ -18,23 +18,23 @@ Para iniciar este proyecto debes tener instalado node en su versión 18, y tambi
 - Clone el proyecto:
 
 ```
-   git clone https://github.com/Ilumiant/rick-and-morty-app.git
+git clone https://github.com/Ilumiant/rick-and-morty-app.git
 ```
 
 - Acceda a la carpeta del proyecto:
 
 ```
-   cd rick-and-morty-app
+cd rick-and-morty-app
 ```
 
 - Instale las dependencias:
 
 ```
-   npm install
+npm install
 ```
 
 - Ejecute el proyecto:
 
 ```
-   npm run dev
+npm run dev
 ```
