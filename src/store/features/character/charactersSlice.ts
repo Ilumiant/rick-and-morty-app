@@ -74,7 +74,7 @@ export const nextCharacter = createAsyncThunk(
 /**
  * Este action va al character anterior, a pesar de que no ejecuta ninguna función asíncrona
  * es mejor dejarla así ya que si llega a incluír asincronía no cambiaría su firma con los
- * archivos que la importen y sigua teniendo similitud con la función nextCharacter
+ * archivos que la importen y siga teniendo similitud con la función nextCharacter
  */
 export const prevCharacter = createAsyncThunk(
   'characters/prev',
